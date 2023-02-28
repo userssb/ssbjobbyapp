@@ -1,0 +1,64 @@
+.bg-cont {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #272727;
+  flex-direction: column;
+  height: 250px;
+  width: 250px;
+  padding: 20px;
+}
+.logo-img {
+  background-color: #272727;
+  height: 40px;
+  width: 120px;
+  margin-bottom: 20px;
+}
+.username-cont {
+  display: flex;
+  flex-direction: column;
+}
+.password-cont {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.btn-submit {
+  margin-top: 10px;
+  background-color: #4f46e5;
+  border-style: none;
+  border-radius: 5px;
+  width: 200px;
+  color: #f8fafc;
+  height: 30px;
+}
+.lbl-username {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 12px;
+}
+.txt-username {
+  height: 30px;
+  width: 200px;
+}
+.lbl-password {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 12px;
+}
+.txt-password {
+  height: 30px;
+  width: 200px;
+}
+.err-msg {
+  color: red;
+  font-size: 12px;
+}

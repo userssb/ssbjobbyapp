@@ -1,0 +1,143 @@
+.bg-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #121212;
+  height: 100vh;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+.search-cont {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.search-bar {
+  height: 30px;
+  width: 180px;
+  background-color: #121212;
+  color: bisque;
+}
+.search-icon-cont {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-cont {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  padding: 30px;
+}
+.left-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-start;
+  width: 40%;
+  margin-top: 20px;
+}
+.right-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.profile-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.horizontal-line {
+  width: 180px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.img-cont {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  height: 150px;
+  width: 180px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  background-size: cover;
+}
+.man-img {
+  height: 30px;
+  width: 30px;
+}
+
+.man-img-cont {
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+  background-color: #fbbf24;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+.profile-name {
+  color: #4f46e5;
+  font-size: 15px;
+  font-weight: bold;
+}
+.profile-desc {
+  margin-top: 10px;
+  font-size: 10px;
+  color: #4f46e5;
+}
+.check-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.radio-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.employment-types-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.employment-types-heading {
+  color: white;
+  font-size: 12px;
+}
+.emp-type {
+  color: white;
+  font-size: 10px;
+  margin-left: 10px;
+}
+.sal-range {
+  color: white;
+  font-size: 10px;
+}
+.salary-range-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.salary-range-heading {
+  color: white;
+  font-size: 12px;
+}
+.desc {
+  color: aqua;
+}

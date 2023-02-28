@@ -1,0 +1,100 @@
+.job-item-cont {
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+  background-size: cover;
+  width: 800px;
+  border-radius: 5px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.logo-title-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-start;
+}
+.company-logo {
+  height: 50px;
+  width: 50px;
+}
+.title {
+  font-size: 15px;
+  color: white;
+}
+.title-rating-cont {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 80px;
+  margin: 10px;
+}
+.rating-cont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.number {
+  color: aliceblue;
+}
+.location-type-cont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.location-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.type-cont {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loc-type {
+  color: #cbd5e1;
+  font-size: 12px;
+}
+.location-type-sal-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: space-between;
+  width: 100%;
+}
+.package {
+  margin-left: auto;
+}
+.pack {
+  color: #cbd5e1;
+  font-size: 12px;
+  font-weight: 500;
+}
+.big-line {
+  width: 100%;
+}
+.description {
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+}
+.desc-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.job-desc {
+  color: white;
+  font-size: 15px;
+}
+.test {
+  text-decoration: none;
+  color: antiquewhite;
+}
+.list-item {
+  list-style-type: none;
+}

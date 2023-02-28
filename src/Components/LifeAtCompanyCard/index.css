@@ -1,0 +1,22 @@
+.life-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.desc-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.heading {
+  font-weight: 500;
+  font-family: Roboto;
+  color: white;
+}
+.life-at-image {
+  height: 200px;
+  width: 250px;
+}
+.life-desc {
+  color: white;
+}

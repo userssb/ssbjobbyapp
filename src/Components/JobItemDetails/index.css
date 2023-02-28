@@ -1,0 +1,102 @@
+.bg-cont {
+  background-color: black;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.item-cont {
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 10px;
+  width: 80%;
+  margin-top: 20px;
+}
+.desc-upArrow {
+  display: flex;
+  justify-content: flex-start;
+  align-items: space-between;
+}
+.logo-title-rating-cont {
+  height: 150px;
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+  align-items: center;
+}
+.logo {
+  height: 70px;
+}
+.title-rating-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.title {
+  color: white;
+}
+.rating-cont {
+  color: white;
+}
+.rating {
+  color: white;
+}
+.loc-type-sal-cont {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.location-type-cont {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+  margin-left: 34px;
+}
+.loc-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.type-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.type {
+  color: white;
+  margin-left: 5px;
+}
+.sal {
+  color: white;
+}
+.desc-cont {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 40px;
+}
+.desc-head {
+  color: aliceblue;
+  font-size: 15pt;
+}
+.job-desc {
+  color: aliceblue;
+}
+.head-link-cont {
+  display: flex;
+  align-items: space-between;
+  justify-content: space-between;
+}
+.skills-head {
+  color: white;
+  margin-left: 30px;
+}
+.location {
+  color: white;
+}
