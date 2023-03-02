@@ -285,7 +285,6 @@ class Jobs extends Component {
   render() {
     return (
       <>
-        <Header />
         <div className="bg-cont">
           <div className="app-cont">
             <div className="left-cont">{this.renderLeftCont()}</div>

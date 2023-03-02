@@ -9,7 +9,6 @@ const Home = props => {
 
   return (
     <>
-      <Header />
       <div className="bg-cont">
         <div className="title-btn-cont">
           <h1>

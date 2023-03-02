@@ -100,3 +100,16 @@
 .location {
   color: white;
 }
+.skill-name-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 75%;
+}
+.loader-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100px;
+}

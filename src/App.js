@@ -63,3 +63,4 @@ const App = () => (
   </div>
 )
 export default App
+// cd .. && rm -rf jobbyApp && mkdir jobbyApp && cd jobbyApp && git clone https://github.com/userssb/ssbjobbyapp.git /home/workspace/reactjs/coding-practices/jobbyApp && npm i && npm start

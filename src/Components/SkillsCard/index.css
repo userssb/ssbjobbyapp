@@ -6,3 +6,8 @@
   color: azure;
   font-size: 12x;
 }
+.skill {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

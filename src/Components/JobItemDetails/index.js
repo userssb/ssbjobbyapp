@@ -3,6 +3,10 @@ import {MdLocationOn} from 'react-icons/md'
 import {BsBriefcaseFill} from 'react-icons/bs'
 import Cookies from 'js-cookie'
 import {Component} from 'react'
+import Loader from 'react-loader-spinner'
+
+import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css'
+
 import LifeAtCompanyCard from '../LifeAtCompanyCard'
 import SkillsCard from '../SkillsCard'
 import './index.css'
@@ -11,6 +15,7 @@ class JobItemDetails extends Component {
   state = {
     jobItemList: {},
     similarJobsList: [],
+    isLoading: true,
   }
 
   componentDidMount() {
@@ -75,6 +80,7 @@ class JobItemDetails extends Component {
       this.setState({
         jobItemList: updatedData,
         similarJobsList: updatedSimilarData,
+        isLoading: false,
       })
     }
   }
@@ -95,7 +101,7 @@ class JobItemDetails extends Component {
     } = jobItemList
     console.log('jobItemList', jobItemList.lifeAtCompany)
 
-    // const {description, imageUrl} = lifeAtCompany
+    const {description, imageUrl} = lifeAtCompany
     // const {name, imageUrl2} = skills
 
     return (
@@ -132,6 +138,7 @@ class JobItemDetails extends Component {
           <div className="desc-cont">
             <div className="head-link-cont">
               <h1 className="desc-head">Description</h1>
+              {/* <a href='' */}
             </div>
             <p className="job-desc">{jobDescription}</p>
           </div>
@@ -140,12 +147,12 @@ class JobItemDetails extends Component {
             <div className="skill-name-cont">
               {/* <img src={imageUrl2} alt="" className="skill-image" />
               <p className="skill-name">{name}</p> */}
-              {/* {skills.map(eachSkill => (
+              {skills.map(eachSkill => (
                 <SkillsCard skills={eachSkill} />
-              ))} */}
+              ))}
             </div>
             {/* <LifeAtCompanyCard lifeAtCompany={lifeAtCompany} /> */}
-            {/*  <div className="life-cont">
+            <div className="life-cont">
               <div className="desc-cont">
                 <h1 className="heading">Life at Company</h1>
                 <p className="life-desc">{description}</p>
@@ -155,7 +162,7 @@ class JobItemDetails extends Component {
                 alt="life at company"
                 className="life-at-image"
               />
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
@@ -169,7 +176,18 @@ class JobItemDetails extends Component {
   //   )
 
   render() {
-    return <>{this.renderJobDetails()}</>
+    const {isLoading} = this.state
+    return (
+      <>
+        {isLoading ? (
+          <div className="loader-cont" data-testid="loader">
+            <Loader type="TailSpin" color="pink" height="50" width="50" />
+          </div>
+        ) : (
+          this.renderJobDetails()
+        )}
+      </>
+    )
   }
 }
 export default JobItemDetails
